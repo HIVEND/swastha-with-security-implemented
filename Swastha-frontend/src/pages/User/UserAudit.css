@@ -1,0 +1,57 @@
+.user-audit-container {
+    margin: 20px auto;
+    padding: 70px;
+    max-width: 900px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .audit-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .audit-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .audit-table th, .audit-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .audit-table th {
+    background-color: #007bff;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+  }
+  
+  .audit-table td {
+    font-family: 'Arial', sans-serif;
+    color: #555;
+  }
+  
+  .audit-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .audit-table .no-data {
+    text-align: center;
+    color: #999;
+    font-style: italic;
+  }
+  
+  pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    margin: 0;
+  }
+  
